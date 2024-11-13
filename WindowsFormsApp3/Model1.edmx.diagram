@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ab8347cf65ff413f83751f9e3937c51f" Name="Diagram1">
+        <EntityTypeShape EntityType="DataBaseModel.Amenities" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Areas" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Attractions" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.CancellationPolicies" Width="1.5" PointX="6" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.CancellationRefundFees" Width="1.5" PointX="8.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Coupons" Width="1.5" PointX="10.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.DimDates" Width="1.5" PointX="10.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.ItemAmenities" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.ItemAttractions" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.ItemPictures" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.ItemPrices" Width="1.5" PointX="8.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Items" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.ItemTypes" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.sysdiagrams" Width="1.5" PointX="12.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Transactions" Width="1.5" PointX="10" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.TransactionTypes" Width="1.5" PointX="7.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.Users" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataBaseModel.UserTypes" Width="1.5" PointX="1.5" PointY="15.625" IsExpanded="true" />
+        <AssociationConnector Association="DataBaseModel.FK_PlaceAmenities_Amenities" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Attractions_Areas" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Items_Areas" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_PlaceSightseeingLocations_SightseeingLocations" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_CancellationRefundFees_CancellationPolicies" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_PlacePrices_CancellationPolicies" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_PlaceAmenities_Places" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_PlaceSightseeingLocations_Places" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_PlacePictures_Places" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_PlacePrices_Places" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Places_PlaceTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Places_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Transactions_TransactionTypes" ManuallyRouted="false" />
+        <AssociationConnector Association="DataBaseModel.FK_Users_UserTypes" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
